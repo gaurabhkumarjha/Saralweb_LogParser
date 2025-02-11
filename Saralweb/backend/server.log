@@ -1,0 +1,22 @@
+::1 - - [2025-02-10T10:20:42.863Z] GET /
+::1 - - [2025-02-10T10:24:00.662Z] GET /data
+::1 - - [2025-02-10T10:24:40.077Z] GET /data
+::1 - - [2025-02-10T10:30:16.417Z] "GET / HTTP/1.1" 200 616 "-" "PostmanRuntime/7.39.1" "Other 0.0.0" "Other 0.0.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10T10:32:14.103Z] "GET / HTTP/1.1" 200 1142 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10T10:32:14.206Z] "GET /favicon.ico HTTP/1.1" 200 5399 "http://localhost:8000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10T10:34:28.124Z] "GET /data HTTP/1.1" 200 5267 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10 16:23:41.280] "GET /data HTTP/1.1" 200 2719 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10T10:59:16.498Z] "GET / HTTP/1.1" 200 3212 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10 16:38:52.703] "GET /data HTTP/1.1" 200 3206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::1 - - [2025-02-10 16:39:38.584] "GET / HTTP/1.1" 200 1738 "-" "PostmanRuntime/7.39.1" "Other 0.0.0" "Other 0.0.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10 16:56:23.544] "GET /analyze-logs/2025-02-10 HTTP/1.1" 200 4530 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10 16:57:02.077] "GET /analyze-logs/2025-02-10 HTTP/1.1" 200 3598 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10 17:09:58.049] "GET /analyze-logs/2025-10-02 HTTP/1.1" 200 4688 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10 17:10:45.923] "GET /analyze-logs/2025-10-02 HTTP/1.1" 200 2979 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10 17:12:29.513] "GET /analyze-logs/2025-10-02 HTTP/1.1" 200 1298 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10 17:14:11.623] "GET /analyze-logs/2025-02-10 HTTP/1.1" 200 4277 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10 17:18:55.048] "GET /analyze-logs/2025-02-10 HTTP/1.1" 200 2839 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::1 - - [2025-02-10 19:49:13.199] "GET /get-top-ef-ips/2025-02-10 HTTP/1.1" 200 3588 "-" "PostmanRuntime/7.39.1" "Other 0.0.0" "Other 0.0.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-10 19:56:44.008] "GET / HTTP/1.1" 200 715 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-11 12:13:28.546] "GET / HTTP/1.1" 200 3890 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
+::ffff:127.0.0.1 - - [2025-02-11 12:13:28.663] "GET /favicon.ico HTTP/1.1" 200 5177 "http://localhost:8000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" "Firefox 135.0.0" "Mac OS X 10.15.0" "Other 0.0.0"
