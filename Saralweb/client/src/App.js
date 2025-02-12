@@ -16,7 +16,7 @@ function App() {
 
 
   const handleDateChange = (date) => {
-    setdate(date); // `dateString` contains the formatted date
+    setdate(date); 
   };
   const handleTopDateChange = (date) => {
     settopdate(date);
@@ -24,6 +24,10 @@ function App() {
 
 
   const Analayzealllogs = async () => {
+    if (date === ''){
+      message.error("Please select date");
+      return;
+    }
     const CreationDate = dayjs(date).format('YYYY-MM-DD'); // for input.
     const res = await fetch("http://localhost:8000/analyze-logs/" + CreationDate, {
       method: 'GET',
@@ -44,7 +48,10 @@ function App() {
   }
 
   const Get_Top_85 = async () => {
-
+    if (topdate === ''){
+      message.error("Please select date");
+      return;
+    }
     const CreationDate = dayjs(topdate).format('YYYY-MM-DD'); // for input.
     const res = await fetch("http://localhost:8000/get-top-ef-ips/" + CreationDate, {
       method: 'GET',
@@ -63,7 +70,10 @@ function App() {
   }
 
   const Get_Top_70 = async () => {
-
+    if (topdate === ''){
+      message.error("Please select date");
+      return;
+    }
     const CreationDate = dayjs(topdate).format('YYYY-MM-DD'); // for input.
     const res = await fetch("http://localhost:8000/get-top-so-ips/" + CreationDate, {
       method: 'GET',
